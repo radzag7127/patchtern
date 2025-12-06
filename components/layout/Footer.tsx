@@ -37,18 +37,20 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Kontak</h3>
             <div className="flex flex-col gap-3 text-sm text-subtle-light">
               <a
-                href="mailto:hello@patchtern.com"
-                className="hover:text-primary transition-colors"
-              >
-                hello@patchtern.com
-              </a>
-              <a
-                href="https://instagram.com/patchtern"
+                href="https://wa.me/6285641641930"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
               >
-                Instagram
+                WhatsApp: +62 856-4164-1930
+              </a>
+              <a
+                href="https://wa.me/6285641641930"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary transition-colors"
+              >
+                Email & Instagram
               </a>
             </div>
           </div>
