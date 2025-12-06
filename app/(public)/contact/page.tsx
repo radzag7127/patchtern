@@ -11,58 +11,32 @@ export default function ContactPage() {
 
         {/* Contact Sections */}
         <div className="space-y-8">
+          {/* WhatsApp */}
+          <div>
+            <h2 className="text-lg font-bold mb-3">WhatsApp</h2>
+            <p>
+              <a
+                href="https://wa.me/6285641641930"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                +62 856-4164-1930
+              </a>
+            </p>
+          </div>
+
           {/* Email */}
           <div>
             <h2 className="text-lg font-bold mb-3">Email</h2>
             <p>
               <a
-                href="mailto:hello@patchtern.com"
-                className="text-primary hover:underline"
-              >
-                hello@patchtern.com
-              </a>{" "}
-              (umum)
-            </p>
-          </div>
-
-          {/* WhatsApp */}
-          <div>
-            <h2 className="text-lg font-bold mb-3">WhatsApp Business</h2>
-            <p>
-              <a
-                href="https://wa.me/6281234567890"
+                href="https://wa.me/6285641641930"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
               >
-                +62 812-3456-7890
-              </a>{" "}
-              (Customer Care)
-            </p>
-          </div>
-
-          {/* Marketplace */}
-          <div>
-            <h2 className="text-lg font-bold mb-3">
-              Belanja 24/7 di Marketplace Kami
-            </h2>
-            <p>
-              <a
-                href="https://www.tokopedia.com/patchtern"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline"
-              >
-                tokopedia.com/patchtern
-              </a>
-              <br />
-              <a
-                href="https://shopee.co.id/patchtern"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline"
-              >
-                shopee.co.id/patchtern
+                Hubungi via WhatsApp
               </a>
             </p>
           </div>
@@ -72,12 +46,12 @@ export default function ContactPage() {
             <h2 className="text-lg font-bold mb-3">Instagram</h2>
             <p>
               <a
-                href="https://www.instagram.com/patchtern"
+                href="https://wa.me/6285641641930"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
               >
-                @patchtern
+                Hubungi via WhatsApp
               </a>
             </p>
           </div>
@@ -87,12 +61,27 @@ export default function ContactPage() {
             <h2 className="text-lg font-bold mb-3">Facebook</h2>
             <p>
               <a
-                href="https://www.facebook.com/patchtern"
+                href="https://wa.me/6285641641930"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
               >
-                Patchtern
+                Hubungi via WhatsApp
+              </a>
+            </p>
+          </div>
+
+          {/* Marketplace */}
+          <div>
+            <h2 className="text-lg font-bold mb-3">Marketplace</h2>
+            <p>
+              <a
+                href="https://wa.me/6285641641930"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                Hubungi via WhatsApp untuk Pemesanan
               </a>
             </p>
           </div>
@@ -102,7 +91,7 @@ export default function ContactPage() {
             <h2 className="text-lg font-bold mb-3">Kunjungi Workshop Kami</h2>
             <p>
               <a
-                href="https://maps.app.goo.gl/example"
+                href="https://www.google.com/maps/search/?api=1&query=Wawar+Lor+RT+2+RW+4+Desa+Bedono+Kecamatan+Jambu+Kabupaten+Semarang+Jawa+Tengah"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
@@ -110,21 +99,16 @@ export default function ContactPage() {
                 Patchtern Workshop
               </a>
               <br />
-              <a
-                href="https://maps.app.goo.gl/example"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline"
-              >
-                Jl. Contoh No. 123, Jakarta Selatan, 12345 DKI Jakarta
-              </a>
+              <span className="text-gray-700">
+                Wawar Lor, RT 2 RW 4, Desa Bedono, Kecamatan Jambu, Kabupaten Semarang, Jawa Tengah
+              </span>
             </p>
           </div>
 
           {/* Map */}
           <div className="pt-8">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613!3d-6.1751171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTAnMzAuNCJTIDEwNsKwNDknMTAuNCJF!5e0!3m2!1sen!2sid!4v1234567890!5m2!1sen!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7677.860998446347!2d110.34616974086124!3d-7.303467228989759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWawar%20Lor%2C%20RT%202%20RW%204%2C%20Desa%20Bedono%2C%20Kecamatan%20Jambu%2C%20Kabupaten%20Semarang%2C%20Jawa%20Tengah!5e1!3m2!1sen!2sid!4v1764980665322!5m2!1sen!2sid"
               width="100%"
               height="350"
               style={{ border: 0 }}
