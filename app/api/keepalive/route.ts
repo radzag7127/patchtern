@@ -1,5 +1,5 @@
-import { createClient } from '@/lib/supabase/server';
-import { NextResponse } from 'next/server';
+import { createClient } from "@/lib/supabase/server";
+import { NextResponse } from "next/server";
 
 export async function GET() {
   try {
@@ -7,25 +7,29 @@ export async function GET() {
 
     // Simple query to keep database active
     const { count, error } = await supabase
-      .from('products')
-      .select('*', { count: 'exact', head: true });
+      .from("products")
+      .select("*", { count: "exact", head: true });
 
     if (error) throw error;
 
-    console.log(`[${new Date().toISOString()}] Database keepalive: ${count} products`);
+    console.log(
+      `[${new Date().toISOString()}] Database keepalive: ${count} products`
+    );
 
     return NextResponse.json({
       success: true,
-      message: 'Database keepalive successful',
+      message: "Database keepalive successful",
       timestamp: new Date().toISOString(),
       productCount: count,
     });
-  } catch (error: any) {
-    console.error('Keepalive error:', error);
+  } catch (error: unknown) {
+    console.error("Keepalive error:", error);
+    const errorMessage =
+      error instanceof Error ? error.message : "Unknown error occurred";
     return NextResponse.json(
       {
         success: false,
-        error: error.message,
+        error: errorMessage,
       },
       { status: 500 }
     );
