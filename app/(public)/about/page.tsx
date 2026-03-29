@@ -61,10 +61,12 @@ export default function AboutPage() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              Patchtern lahir dari kepedulian terhadap limbah fashion yang
-              semakin menumpuk. Kami percaya bahwa setiap potongan kain memiliki
-              cerita dan potensi untuk dihidupkan kembali menjadi sesuatu yang
-              bermakna dan indah.
+              Patchtern adalah brand yang lahir dari proses melihat kembali apa
+              yang selama ini terabaikan. Sebagai bagian dari aktivitas produksi
+              di Rira Konveksi dan Rira Taylor, setiap hari selalu ada
+              potongan-potongan kain yang tersisa. Potongan kecil yang tidak
+              lagi digunakan, sering kali dianggap sebagai akhir dari sebuah
+              proses.
             </motion.p>
 
             {/* Breathing space */}
@@ -77,8 +79,8 @@ export default function AboutPage() {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              Perjalanan kami dimulai dari keinginan sederhana: mengubah cara
-              pandang terhadap limbah tekstil.
+              Namun dari situ muncul pertanyaan sederhana: apakah semua yang
+              tersisa memang harus berakhir sebagai limbah?
             </motion.p>
 
             <div className="h-6" />
@@ -90,9 +92,8 @@ export default function AboutPage() {
               transition={{ duration: 0.8, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              Alih-alih membuangnya, kami melihat peluang untuk menciptakan
-              karya seni fungsional yang tidak hanya indah, tetapi juga ramah
-              lingkungan.
+              Patchtern hadir sebagai upaya untuk menjawab pertanyaan
+              tersebut—dengan cara yang pelan, sadar, dan bertanggung jawab.
             </motion.p>
           </motion.div>
         </div>
@@ -109,8 +110,7 @@ export default function AboutPage() {
         >
           <div className="relative pl-8 border-l-4 border-primary">
             <blockquote className="text-3xl sm:text-4xl font-light italic text-gray-800 leading-relaxed">
-              "Setiap produk dibuat dengan tangan, menggabungkan
-              potongan-potongan kain menjadi pola baru yang unik."
+              "Apakah semua yang tersisa memang harus berakhir sebagai limbah?"
             </blockquote>
           </div>
         </motion.div>
@@ -141,33 +141,33 @@ export default function AboutPage() {
             transition={{ duration: 1 }}
             viewport={{ once: true }}
           >
-            Nilai-Nilai Kami
+            Apa yang Kami Lakukan
           </motion.h2>
 
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
-                title: "Keberlanjutan",
+                title: "Cara Kami Melihat Limbah",
                 description:
-                  "Mengurangi limbah fashion dengan memberikan kehidupan baru pada material yang terbuang.",
+                  "Bagi kami, limbah bukan sekadar sesuatu yang harus dibuang atau dihilangkan. Ia adalah bagian dari proses yang belum selesai. Potongan-potongan kain yang sebelumnya terpisah kami susun kembali, membentuk pola baru yang memiliki nilai, fungsi, dan cerita.",
                 delay: 0,
               },
               {
-                title: "Kerajinan Tangan",
+                title: "Proses",
                 description:
-                  "Setiap produk dibuat dengan tangan, menjaga tradisi kerajinan dan memberikan sentuhan personal.",
+                  "Setiap lembar patchwork disusun secara manual. Kami memilih potongan kain berdasarkan warna, tekstur, dan bentuk. Kami juga bekerja bersama mitra penjahit lokal—sebagian besar adalah perempuan dengan pengalaman di industri garmen yang kini memilih bekerja dari rumah.",
                 delay: 0.1,
               },
               {
-                title: "Desain Fungsional",
+                title: "Produk",
                 description:
-                  "Menggabungkan estetika dengan fungsi, menciptakan produk yang indah dan berguna.",
+                  "Patchtern menghadirkan berbagai produk berbasis patchwork, dimulai dari kemeja, outer, hingga pengembangan produk lainnya ke depan. Setiap produk dibuat dari kain sisa produksi yang telah dipilih dan disusun kembali, sehingga tidak ada dua produk yang benar-benar sama.",
                 delay: 0.2,
               },
               {
-                title: "Kesadaran Lingkungan",
+                title: "Dampak",
                 description:
-                  "Mendorong konsumsi yang lebih bertanggung jawab dan mengurangi jejak karbon.",
+                  "Kami tidak mengklaim sebagai solusi besar. Namun melalui Patchtern, kami berusaha mengambil langkah kecil yang nyata: mengurangi limbah tekstil dari proses produksi kami sendiri dan memberinya kehidupan kedua.",
                 delay: 0.3,
               },
             ].map((value, index) => (
@@ -202,7 +202,7 @@ export default function AboutPage() {
             transition={{ duration: 1 }}
             viewport={{ once: true }}
           >
-            Mengapa Patchtern?
+            Arah Ke Depan
           </motion.h2>
 
           <div className="max-w-2xl mb-16">
@@ -213,8 +213,9 @@ export default function AboutPage() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              Patchtern adalah seni menyatukan potongan-potongan kain yang
-              berbeda menjadi satu kesatuan yang harmonis.
+              Patchtern akan terus berkembang sebagai ruang
+              eksplorasi—menggabungkan antara produksi, kreativitas, dan
+              kesadaran lingkungan.
             </motion.p>
 
             <div className="h-4" />
@@ -226,9 +227,9 @@ export default function AboutPage() {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              Bagi kami, Patchtern bukan hanya teknik, tetapi filosofi. Setiap
-              potongan kain mewakili cerita yang berbeda—dari pakaian yang
-              pernah dikenakan, hingga sisa produksi yang tak terpakai.
+              Kami terbuka untuk kolaborasi dengan berbagai pihak yang memiliki
+              nilai sejalan, serta ingin menghadirkan pendekatan baru dalam
+              melihat limbah dan produk fashion.
             </motion.p>
           </div>
 
@@ -271,8 +272,9 @@ export default function AboutPage() {
           viewport={{ once: true }}
         >
           <blockquote className="text-3xl sm:text-4xl font-light italic text-gray-800 leading-relaxed mb-8">
-            "Setiap potongan kain adalah sisa dari cerita sebelumnya. Patchtern
-            menggabungkannya menjadi cerita baru."
+            "Patchtern bukan hanya tentang membuat sesuatu dari sisa. Tetapi
+            tentang bagaimana kita memilih untuk melihatnya. Dari yang dianggap
+            akhir, kami melihat kemungkinan baru."
           </blockquote>
 
           {/* Handwritten-style signature */}
