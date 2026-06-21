@@ -5,28 +5,28 @@ import { motion } from 'framer-motion';
 const VALUES = [
   {
     title: 'Keberlanjutan',
-    description: 'Menghormati planet dengan memberikan kehidupan baru pada material yang terlupakan.',
+    description: 'Mengurangi limbah tekstil dari proses produksi kami sendiri, dan memberi kain sisa sebuah kehidupan kedua.',
     gradient: 'from-primary/8 via-primary/3 to-transparent',
     accentColor: 'bg-primary',
     borderColor: 'hover:border-primary/30',
   },
   {
     title: 'Kesederhanaan',
-    description: 'Menemukan keindahan dalam garis bersih, material jujur, dan desain fungsional.',
+    description: 'Menemukan keindahan dalam hal yang sederhana—material yang jujur, bentuk yang fungsional, dan proses yang tidak terburu-buru.',
     gradient: 'from-primary/6 via-primary/2 to-transparent',
     accentColor: 'bg-primary',
     borderColor: 'hover:border-primary/30',
   },
   {
     title: 'Kreativitas',
-    description: 'Merangkul pola unik dan cerita warna dalam setiap kreasi.',
+    description: 'Menyusun kembali potongan-potongan kain menjadi pola baru yang memiliki nilai, fungsi, dan cerita.',
     gradient: 'from-primary/8 via-primary/3 to-transparent',
     accentColor: 'bg-primary',
     borderColor: 'hover:border-primary/30',
   },
   {
     title: 'Perhatian',
-    description: 'Membuat setiap karya dengan teliti penuh passion dan presisi.',
+    description: 'Mengerjakan setiap lembar patchwork secara manual, memilih setiap potongan dengan teliti hingga menemukan tempatnya.',
     gradient: 'from-primary/6 via-primary/2 to-transparent',
     accentColor: 'bg-primary',
     borderColor: 'hover:border-primary/30',

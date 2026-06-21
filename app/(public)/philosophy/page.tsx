@@ -103,11 +103,11 @@ export default function PhilosophyPage() {
                 transition={{ duration: 1, delay: 0.2 }}
                 viewport={{ once: true }}
               >
-                Patchtern adalah seni menyatukan potongan-potongan kain yang berbeda
-                menjadi satu karya yang utuh dan bermakna. Teknik ini telah ada
-                selama berabad-abad, dipraktikkan oleh berbagai budaya di seluruh
-                dunia sebagai bentuk kreativitas, kehematan, dan penghargaan
-                terhadap material.
+                Patchtern adalah cara kami menyatukan potongan-potongan kain yang
+                berbeda menjadi satu karya yang utuh dan bermakna. Bagi kami,
+                namanya seakan menggambarkan dua hal sekaligus—patch, potongan
+                yang tersisa, dan pattern, pola baru yang terbentuk ketika
+                potongan-potongan itu disusun kembali.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -115,9 +115,9 @@ export default function PhilosophyPage() {
                 transition={{ duration: 1, delay: 0.4 }}
                 viewport={{ once: true }}
               >
-                Lebih dari sekadar teknik menjahit, Patchtern adalah filosofi
-                tentang transformasi—mengambil sesuatu yang dianggap tidak berguna
-                dan mengubahnya menjadi sesuatu yang indah dan fungsional.
+                Lebih dari sekadar teknik menjahit, Patchtern adalah cara
+                pandang—mengambil sesuatu yang dianggap telah berakhir, lalu
+                memberinya nilai, fungsi, dan cerita yang baru.
               </motion.p>
             </div>
           </motion.div>
@@ -176,10 +176,10 @@ export default function PhilosophyPage() {
                 transition={{ duration: 1, delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                Setiap potongan kain dalam karya Patchtern kami memiliki
-                asal-usulnya sendiri. Ada yang berasal dari pakaian bekas, ada yang
-                merupakan sisa produksi garmen, dan ada pula yang berasal dari kain
-                vintage yang sudah tidak terpakai.
+                Setiap potongan kain dalam karya Patchtern memiliki asal-usulnya
+                sendiri. Semuanya berasal dari sisa produksi di Rira Konveksi dan
+                Rira Taylor—potongan-potongan kecil yang tersisa setiap hari, yang
+                sering kali dianggap sebagai akhir dari sebuah proses.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -225,10 +225,10 @@ export default function PhilosophyPage() {
                 transition={{ duration: 1, delay: 0.2 }}
                 viewport={{ once: true }}
               >
-                Industri fashion adalah salah satu penyumbang limbah terbesar di
-                dunia. Setiap tahun, jutaan ton tekstil berakhir di tempat
-                pembuangan akhir, mencemari lingkungan dan memboroskan sumber daya
-                berharga.
+                Industri fashion menyisakan limbah tekstil dalam jumlah yang
+                besar. Sebagian di antaranya berasal dari proses produksi yang
+                tampak biasa—potongan kain yang tersisa setiap hari dan jarang
+                diperhatikan.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -236,11 +236,11 @@ export default function PhilosophyPage() {
                 transition={{ duration: 1, delay: 0.4 }}
                 viewport={{ once: true }}
               >
-                Patchtern menawarkan solusi alternatif. Dengan menggunakan kembali
-                limbah tekstil, kami tidak hanya mengurangi sampah, tetapi juga
-                menciptakan produk yang unik dan bermakna—produk yang tidak bisa
-                diduplikasi karena setiap karya dibuat dari kombinasi material yang
-                berbeda.
+                Patchtern tidak hadir untuk menyelesaikan persoalan itu secara
+                menyeluruh. Kami hanya memilih untuk tidak menutup mata pada apa
+                yang tersisa di sekitar kami sendiri—menggunakannya kembali,
+                memberinya kehidupan kedua, dan membentuknya menjadi sesuatu yang
+                unik dan bermakna.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -249,8 +249,9 @@ export default function PhilosophyPage() {
                 viewport={{ once: true }}
               >
                 Ini adalah bentuk konsumsi yang lebih bertanggung jawab: menghargai
-                material yang sudah ada, memperpanjang siklus hidup kain, dan
-                mengurangi kebutuhan akan produksi baru.
+                material yang sudah ada, memperpanjang usia pakai kain, dan
+                mengurangi kebutuhan akan produksi baru. Perubahan, kami percaya,
+                bisa dimulai dari hal yang paling dekat.
               </motion.p>
             </div>
           </motion.div>
@@ -340,10 +341,9 @@ export default function PhilosophyPage() {
           viewport={{ once: true, amount: 0.5 }}
         >
           <p className="text-2xl sm:text-3xl font-light leading-loose text-gray-800">
-            Patchtern bagi kami bukan hanya tentang menciptakan produk—ini
-            tentang menciptakan gerakan menuju konsumsi yang lebih sadar,
-            kreatif yang lebih bermakna, dan masa depan yang lebih
-            berkelanjutan.
+            Patchtern bagi kami bukan hanya tentang membuat sesuatu dari sisa,
+            tetapi tentang bagaimana kita memilih untuk melihatnya. Dari yang
+            dianggap akhir, kami melihat kemungkinan baru.
           </p>
         </motion.div>
       </section>

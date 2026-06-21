@@ -149,25 +149,25 @@ export default function AboutPage() {
               {
                 title: "Cara Kami Melihat Limbah",
                 description:
-                  "Bagi kami, limbah bukan sekadar sesuatu yang harus dibuang atau dihilangkan. Ia adalah bagian dari proses yang belum selesai. Potongan-potongan kain yang sebelumnya terpisah kami susun kembali, membentuk pola baru yang memiliki nilai, fungsi, dan cerita.",
+                  "Bagi kami, limbah bukan sekadar sesuatu yang harus dibuang atau dihilangkan. Ia adalah bagian dari proses yang belum selesai. Melalui Patchtern, kami mencoba mengubah cara pandang tersebut. Potongan-potongan kain yang sebelumnya terpisah kami susun kembali, membentuk pola baru yang memiliki nilai, fungsi, dan cerita. Setiap produk bukan hanya hasil dari proses produksi, tetapi hasil dari cara berpikir yang berbeda.",
                 delay: 0,
               },
               {
                 title: "Proses",
                 description:
-                  "Setiap lembar patchwork disusun secara manual. Kami memilih potongan kain berdasarkan warna, tekstur, dan bentuk. Kami juga bekerja bersama mitra penjahit lokal—sebagian besar adalah perempuan dengan pengalaman di industri garmen yang kini memilih bekerja dari rumah.",
+                  "Setiap lembar patchwork disusun secara manual. Kami memilih potongan kain berdasarkan warna, tekstur, dan bentuk. Tidak ada proses yang terburu-buru, karena setiap bagian perlu menemukan tempatnya sendiri. Pendekatan ini membuat setiap karya memiliki karakter yang unik dan tidak dapat direplikasi secara persis. Dalam prosesnya, kami juga bekerja bersama mitra penjahit lokal—sebagian besar adalah perempuan dengan pengalaman di industri garmen yang kini memilih bekerja dari rumah. Melalui kolaborasi ini, Patchtern tidak hanya menjadi ruang produksi, tetapi juga ruang yang memberi fleksibilitas bagi mereka untuk tetap berkarya sambil menjalankan peran di rumah.",
                 delay: 0.1,
               },
               {
                 title: "Produk",
                 description:
-                  "Patchtern menghadirkan berbagai produk berbasis patchwork, dimulai dari kemeja, outer, hingga pengembangan produk lainnya ke depan. Setiap produk dibuat dari kain sisa produksi yang telah dipilih dan disusun kembali, sehingga tidak ada dua produk yang benar-benar sama.",
+                  "Patchtern menghadirkan berbagai produk berbasis patchwork, dimulai dari kemeja, outer, hingga pengembangan produk lainnya ke depan. Setiap produk dibuat dari kain sisa produksi yang telah dipilih dan disusun kembali, sehingga tidak ada dua produk yang benar-benar sama. Keunikan ini bukan dibuat-buat, tetapi terjadi secara alami dari keterbatasan material yang ada.",
                 delay: 0.2,
               },
               {
                 title: "Dampak",
                 description:
-                  "Kami tidak mengklaim sebagai solusi besar. Namun melalui Patchtern, kami berusaha mengambil langkah kecil yang nyata: mengurangi limbah tekstil dari proses produksi kami sendiri dan memberinya kehidupan kedua.",
+                  "Kami tidak mengklaim sebagai solusi besar. Namun melalui Patchtern, kami berusaha mengambil langkah kecil yang nyata: mengurangi limbah tekstil dari proses produksi kami sendiri dan memberinya kehidupan kedua. Kami percaya bahwa perubahan bisa dimulai dari hal yang paling dekat—dan dilakukan bersama.",
                 delay: 0.3,
               },
             ].map((value, index) => (

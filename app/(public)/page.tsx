@@ -51,14 +51,14 @@ export default async function HomePage() {
       />
 
       <div className="px-6 sm:px-10 lg:px-20 py-12">
-        <IntroSectionAnimated text="Kami mengubah limbah kain menjadi karya Patchtern unik yang dibuat dengan tangan. Setiap karya menceritakan kisah keberlanjutan dan kreativitas, memberikan kehidupan baru pada material yang terlupakan dengan desain yang penuh perhatian dan kerajinan yang teliti. Temukan objek fungsional dan seni, yang terlahir kembali dari kain bekas." />
+        <IntroSectionAnimated text="Patchtern lahir dari proses melihat kembali apa yang selama ini terabaikan. Dari potongan-potongan kain yang tersisa setiap hari di ruang produksi, kami menyusunnya kembali menjadi pola baru yang memiliki nilai, fungsi, dan cerita—bukan sekadar membuat sesuatu dari sisa, tetapi memilih cara yang berbeda untuk melihatnya." />
       </div>
 
       {/* PLACEHOLDER PHILOSOPHY IMAGE - Replace with hands crafting Patchtern */}
       <PhilosophyTeaserAnimated
         // imageUrl="https://placehold.co/800x600/9caf88/white?text=Philosophy+Image"
         title="Filosofi Kami"
-        description="Kami percaya pada keindahan ketidaksempurnaan dan kekuatan kesempatan kedua. Karya kami adalah proses penemuan yang perlahan dan penuh pertimbangan, di mana kain yang terbuang dilahirkan kembali menjadi objek fungsional dan seni. Ini adalah penghormatan terhadap konsumsi yang penuh kesadaran dan nilai kerajinan yang bertahan lama."
+        description="Bagi kami, limbah bukan akhir dari sebuah proses, melainkan bagian yang belum selesai. Setiap potongan kain kami susun kembali dengan pelan dan sadar—mengubah yang dianggap berakhir menjadi kemungkinan baru."
       />
 
       <div className="px-6 sm:px-10 lg:px-20 py-24">
