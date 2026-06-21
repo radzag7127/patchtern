@@ -93,7 +93,7 @@ export default function AdminLoginPage() {
         const newAttempts = { count: newCount, lockedUntil };
         localStorage.setItem(STORAGE_KEY, JSON.stringify(newAttempts));
         setAttempts(newAttempts);
-        setError(`Too many failed attempts. Your account has been locked for 5 minutes.`);
+        setError(`Too many failed attempts. Please wait a few minutes before trying again.`);
       } else {
         // Show warning
         const newAttempts = { count: newCount, lockedUntil: null };

@@ -9,6 +9,7 @@ import {
   AnimatePresence,
 } from "framer-motion";
 import Image from "next/image";
+import { safeImageUrl } from "@/lib/safe-image";
 
 interface HeroImage {
   id: string;
@@ -96,7 +97,10 @@ export function HeroCarouselAnimated({ images, settings }: HeroCarouselProps) {
           <div
             className="w-full h-full bg-center bg-cover bg-no-repeat"
             style={{
-              backgroundImage: `url("${getDisplayImage()}")`,
+              backgroundImage: `url("${safeImageUrl(
+                getDisplayImage(),
+                "https://placehold.co/1920x1080/737c6a/white?text=Hero+Image"
+              )}")`,
             }}
           />
           {/* Subtle dark overlay for text readability */}

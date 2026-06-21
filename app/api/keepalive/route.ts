@@ -1,7 +1,19 @@
 import { createClient } from "@/lib/supabase/server";
 import { NextResponse } from "next/server";
 
-export async function GET() {
+export async function GET(request: Request) {
+  // When CRON_SECRET is set in the environment, Vercel injects it as a Bearer
+  // token on scheduled requests — require it so the endpoint can't be hit
+  // anonymously. Until CRON_SECRET is configured the endpoint stays open so the
+  // existing cron keeps working; set CRON_SECRET in Vercel project env to enforce.
+  const cronSecret = process.env.CRON_SECRET;
+  if (cronSecret) {
+    const auth = request.headers.get("authorization");
+    if (auth !== `Bearer ${cronSecret}`) {
+      return NextResponse.json({ success: false }, { status: 401 });
+    }
+  }
+
   try {
     const supabase = await createClient();
 
@@ -20,17 +32,12 @@ export async function GET() {
       success: true,
       message: "Database keepalive successful",
       timestamp: new Date().toISOString(),
-      productCount: count,
     });
   } catch (error: unknown) {
+    // Log details server-side; never leak internal/DB error messages to the caller.
     console.error("Keepalive error:", error);
-    const errorMessage =
-      error instanceof Error ? error.message : "Unknown error occurred";
     return NextResponse.json(
-      {
-        success: false,
-        error: errorMessage,
-      },
+      { success: false, error: "Keepalive failed" },
       { status: 500 }
     );
   }

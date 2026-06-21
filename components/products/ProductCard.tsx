@@ -1,5 +1,6 @@
 import { Product } from '@/types/models';
 import Link from 'next/link';
+import { safeImageUrl } from '@/lib/safe-image';
 
 interface ProductCardProps {
   product: Product;
@@ -11,7 +12,7 @@ export function ProductCard({ product }: ProductCardProps) {
       <div className="overflow-hidden rounded-xl mb-4">
         <div
           className="w-full aspect-[3/4] bg-center bg-cover transition-transform duration-300 group-hover:scale-105 cursor-pointer"
-          style={{ backgroundImage: `url("${product.image_url}")` }}
+          style={{ backgroundImage: `url("${safeImageUrl(product.image_url)}")` }}
           role="img"
           aria-label={product.name}
         />

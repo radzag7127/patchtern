@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { safeImageUrl } from "@/lib/safe-image";
 
 interface Product {
   id: string;
@@ -97,7 +98,7 @@ function ProductCard({ product, index }: ProductCardProps) {
           <motion.div
             className="absolute inset-0 w-full h-full bg-center bg-cover bg-no-repeat"
             style={{
-              backgroundImage: `url("${product.imageUrl}")`,
+              backgroundImage: `url("${safeImageUrl(product.imageUrl)}")`,
             }}
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.6, ease: "easeOut" }}

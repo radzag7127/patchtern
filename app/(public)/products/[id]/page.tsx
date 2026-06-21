@@ -2,6 +2,7 @@ import { createClient } from "@/lib/supabase/server";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { safeImageUrl } from "@/lib/safe-image";
 
 interface PageProps {
   params: Promise<{ id: string }>;
@@ -41,7 +42,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
           <div className="aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100">
             <div
               className="w-full h-full bg-center bg-cover"
-              style={{ backgroundImage: `url("${product.image_url}")` }}
+              style={{ backgroundImage: `url("${safeImageUrl(product.image_url)}")` }}
               role="img"
               aria-label={product.name}
             />
