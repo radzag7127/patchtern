@@ -93,7 +93,7 @@ export default function AboutPage() {
               viewport={{ once: true }}
             >
               Patchtern hadir sebagai upaya untuk menjawab pertanyaan
-              tersebut—dengan cara yang pelan, sadar, dan bertanggung jawab.
+              tersebut dengan cara yang pelan, sadar, dan bertanggung jawab.
             </motion.p>
           </motion.div>
         </div>
@@ -155,7 +155,7 @@ export default function AboutPage() {
               {
                 title: "Proses",
                 description:
-                  "Setiap lembar patchwork disusun secara manual. Kami memilih potongan kain berdasarkan warna, tekstur, dan bentuk. Tidak ada proses yang terburu-buru, karena setiap bagian perlu menemukan tempatnya sendiri. Pendekatan ini membuat setiap karya memiliki karakter yang unik dan tidak dapat direplikasi secara persis. Dalam prosesnya, kami juga bekerja bersama mitra penjahit lokal—sebagian besar adalah perempuan dengan pengalaman di industri garmen yang kini memilih bekerja dari rumah. Melalui kolaborasi ini, Patchtern tidak hanya menjadi ruang produksi, tetapi juga ruang yang memberi fleksibilitas bagi mereka untuk tetap berkarya sambil menjalankan peran di rumah.",
+                  "Setiap lembar patchwork disusun secara manual. Kami memilih potongan kain berdasarkan warna, tekstur, dan bentuk. Tidak ada proses yang terburu-buru, karena setiap bagian perlu menemukan tempatnya sendiri. Pendekatan ini membuat setiap karya memiliki karakter yang unik dan tidak dapat direplikasi secara persis. Dalam prosesnya, kami juga bekerja bersama mitra penjahit lokal, sebagian besar adalah perempuan dengan pengalaman di industri garmen yang kini memilih bekerja dari rumah. Melalui kolaborasi ini, Patchtern tidak hanya menjadi ruang produksi, tetapi juga ruang yang memberi fleksibilitas bagi mereka untuk tetap berkarya sambil menjalankan peran di rumah.",
                 delay: 0.1,
               },
               {
@@ -167,7 +167,7 @@ export default function AboutPage() {
               {
                 title: "Dampak",
                 description:
-                  "Kami tidak mengklaim sebagai solusi besar. Namun melalui Patchtern, kami berusaha mengambil langkah kecil yang nyata: mengurangi limbah tekstil dari proses produksi kami sendiri dan memberinya kehidupan kedua. Kami percaya bahwa perubahan bisa dimulai dari hal yang paling dekat—dan dilakukan bersama.",
+                  "Kami tidak mengklaim sebagai solusi besar. Namun melalui Patchtern, kami berusaha mengambil langkah kecil yang nyata: mengurangi limbah tekstil dari proses produksi kami sendiri dan memberinya kehidupan kedua. Kami percaya bahwa perubahan bisa dimulai dari hal yang paling dekat dan dilakukan bersama.",
                 delay: 0.3,
               },
             ].map((value, index) => (
@@ -214,7 +214,7 @@ export default function AboutPage() {
               viewport={{ once: true }}
             >
               Patchtern akan terus berkembang sebagai ruang
-              eksplorasi—menggabungkan antara produksi, kreativitas, dan
+              eksplorasi, menggabungkan antara produksi, kreativitas, dan
               kesadaran lingkungan.
             </motion.p>
 
@@ -286,7 +286,7 @@ export default function AboutPage() {
             viewport={{ once: true }}
           >
             <div className="w-24 h-1 bg-primary/30" />
-            <p className="text-lg text-gray-600">— Tim Patchtern</p>
+            <p className="text-lg text-gray-600">Tim Patchtern</p>
           </motion.div>
         </motion.div>
       </section>

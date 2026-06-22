@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 export async function GET(request: Request) {
   // When CRON_SECRET is set in the environment, Vercel injects it as a Bearer
-  // token on scheduled requests — require it so the endpoint can't be hit
+  // token on scheduled requests. Require it so the endpoint can't be hit
   // anonymously. Until CRON_SECRET is configured the endpoint stays open so the
   // existing cron keeps working; set CRON_SECRET in Vercel project env to enforce.
   const cronSecret = process.env.CRON_SECRET;

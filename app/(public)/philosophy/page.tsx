@@ -105,7 +105,7 @@ export default function PhilosophyPage() {
               >
                 Patchtern adalah cara kami menyatukan potongan-potongan kain yang
                 berbeda menjadi satu karya yang utuh dan bermakna. Bagi kami,
-                namanya seakan menggambarkan dua hal sekaligus—patch, potongan
+                namanya seakan menggambarkan dua hal sekaligus: patch, potongan
                 yang tersisa, dan pattern, pola baru yang terbentuk ketika
                 potongan-potongan itu disusun kembali.
               </motion.p>
@@ -116,7 +116,7 @@ export default function PhilosophyPage() {
                 viewport={{ once: true }}
               >
                 Lebih dari sekadar teknik menjahit, Patchtern adalah cara
-                pandang—mengambil sesuatu yang dianggap telah berakhir, lalu
+                pandang: mengambil sesuatu yang dianggap telah berakhir, lalu
                 memberinya nilai, fungsi, dan cerita yang baru.
               </motion.p>
             </div>
@@ -178,7 +178,7 @@ export default function PhilosophyPage() {
               >
                 Setiap potongan kain dalam karya Patchtern memiliki asal-usulnya
                 sendiri. Semuanya berasal dari sisa produksi di Rira Konveksi dan
-                Rira Taylor—potongan-potongan kecil yang tersisa setiap hari, yang
+                Rira Taylor, potongan-potongan kecil yang tersisa setiap hari, yang
                 sering kali dianggap sebagai akhir dari sebuah proses.
               </motion.p>
               <motion.p
@@ -188,7 +188,7 @@ export default function PhilosophyPage() {
                 viewport={{ once: true }}
               >
                 Ketika kami menyatukan potongan-potongan ini, kami tidak hanya
-                menciptakan pola baru—kami menciptakan narasi baru. Setiap karya
+                menciptakan pola baru, tetapi juga narasi baru. Setiap karya
                 menjadi pertemuan dari berbagai cerita, warna, dan tekstur yang
                 berbeda, namun harmonis.
               </motion.p>
@@ -227,7 +227,7 @@ export default function PhilosophyPage() {
               >
                 Industri fashion menyisakan limbah tekstil dalam jumlah yang
                 besar. Sebagian di antaranya berasal dari proses produksi yang
-                tampak biasa—potongan kain yang tersisa setiap hari dan jarang
+                tampak biasa, seperti potongan kain yang tersisa setiap hari dan jarang
                 diperhatikan.
               </motion.p>
               <motion.p
@@ -238,7 +238,7 @@ export default function PhilosophyPage() {
               >
                 Patchtern tidak hadir untuk menyelesaikan persoalan itu secara
                 menyeluruh. Kami hanya memilih untuk tidak menutup mata pada apa
-                yang tersisa di sekitar kami sendiri—menggunakannya kembali,
+                yang tersisa di sekitar kami sendiri, menggunakannya kembali,
                 memberinya kehidupan kedua, dan membentuknya menjadi sesuatu yang
                 unik dan bermakna.
               </motion.p>

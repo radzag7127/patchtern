@@ -12,7 +12,7 @@ const VALUES = [
   },
   {
     title: 'Kesederhanaan',
-    description: 'Menemukan keindahan dalam hal yang sederhana—material yang jujur, bentuk yang fungsional, dan proses yang tidak terburu-buru.',
+    description: 'Menemukan keindahan dalam hal yang sederhana: material yang jujur, bentuk yang fungsional, dan proses yang tidak terburu-buru.',
     gradient: 'from-primary/6 via-primary/2 to-transparent',
     accentColor: 'bg-primary',
     borderColor: 'hover:border-primary/30',
